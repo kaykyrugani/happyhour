@@ -1,13 +1,13 @@
 .gallery {
-  background: #1E1E1E;
-  padding: 4rem 0;
+  background: #f9f7f3;
+  padding: 4rem 0 3rem 0;
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 2.5rem auto 0 auto;
 }
 .cardMotion {
   background: rgba(35,35,35,0.65);

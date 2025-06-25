@@ -8,6 +8,7 @@ import Gallery from './sections/gallery/Gallery';
 import Catalog from './sections/catalog/Catalog';
 import Contact from './sections/contact/Contact';
 import Footer from './components/Footer/Footer';
+import ScrollProgress from './components/ScrollProgress';
 import './App.css';
 
 // Componente ScrollToTop personalizado
@@ -25,8 +26,9 @@ function App() {
   return (
     <Router>
       <div className="app">
+        <ScrollProgress />
         <Navbar />
-        <div style={{ paddingTop: 70 }}>
+        <div style={{ paddingTop: 80 }}>
           <ScrollToTop />
           <AnimatePresence mode="wait">
             <motion.div

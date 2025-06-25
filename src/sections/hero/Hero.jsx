@@ -8,6 +8,7 @@ const Hero = () => {
   return (
     <section className={styles.hero} id="inicio">
       <div className={styles.overlay}></div>
+      <div className="hero-gradient"></div>
       <div className={styles.container}>
         <motion.div
           className={styles.content}
@@ -15,21 +16,21 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <span className={styles.subtitle}>Bem-vindo ao</span>
-          <h1 className={styles.title}>Happy Hour Campestre</h1>
+          <span className={styles.subtitle}>Viva momentos inesquecíveis</span>
+          <h1 className={styles.title}>O sabor que conquista e o ambiente que acolhe</h1>
           <p className={styles.description}>
-            O melhor lugar para desfrutar de momentos incríveis com boa comida,
-            drinks especiais e um ambiente acolhedor no coração da natureza.
+            Gastronomia casual, drinks autorais e o clima perfeito para celebrar a vida. <br />
+            Venha viver essa experiência no coração da natureza!
           </p>
           <div className={styles.buttons}>
             <Link to="cardapio" smooth={true} duration={500} offset={-80}>
               <Button variant="primary" size="large">
-                Ver Cardápio
+                Descubra nosso sabor
               </Button>
             </Link>
             <Link to="contato" smooth={true} duration={500} offset={-80}>
               <Button variant="outline" size="large">
-                Reservar Mesa
+                Quero reservar agora
               </Button>
             </Link>
           </div>

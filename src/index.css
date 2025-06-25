@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap');
 
 :root {
   --primary: #D35400;
@@ -75,6 +75,42 @@ img {
 section {
   padding: 5rem 0;
 }
+
+.section-title-bar {
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 0.7rem auto 1.7rem auto;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--primary) 60%, var(--primary-dark) 100%);
+  opacity: 0.8;
+}
+
+/* Gradiente escuro para overlay do Hero */
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(44,62,80,0.7) 0%, rgba(44,62,80,0.2) 100%);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Responsividade avançada para títulos */
+h1, .section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -1px;
+  color: var(--primary-dark);
+}
+
+h2, h3, h4, .section-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: var(--primary);
+}
+
 
 /* Utilitários */
 .text-center {

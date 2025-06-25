@@ -1,14 +1,23 @@
 .features {
-  background: #fff;
-  padding: 4rem 0;
+  padding: 4rem 0 3rem 0;
+  background: #fff8f0;
 }
+
+.features-bg {
+  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png'), #fff8f0;
+  background-repeat: repeat;
+  background-size: 400px 400px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .glass {
   background: rgba(255, 255, 255, 0.55);
   border-radius: 1.2rem;
