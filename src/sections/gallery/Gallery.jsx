@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import SectionTitle from '../../components/UI/SectionTitle';
+import SectionTitle from '../../components/ui/SectionTitle';
 import CardItem from '../../components/UI/CardItem';
 import styles from './Gallery.module.css';
 

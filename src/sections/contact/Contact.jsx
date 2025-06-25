@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from '../../components/UI/SectionTitle';
+import SectionTitle from '../../components/ui/SectionTitle';
 import { FaWhatsapp, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa';
 import styles from './Contact.module.css';
 
