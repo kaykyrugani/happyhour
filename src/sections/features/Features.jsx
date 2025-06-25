@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from '../../components/ui/SectionTitle';
-import FeatureItem from '../../components/UI/FeatureItem';
+import FeatureItem from '../../components/ui/FeatureItem';
 import { FaBeer, FaLeaf, FaMusic } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import styles from './Features.module.css';
