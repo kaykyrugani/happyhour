@@ -1,0 +1,31 @@
+.features {
+  background: #fff;
+  padding: 4rem 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px rgba(44,62,80,0.10);
+  backdrop-filter: blur(10px);
+  transition: box-shadow 0.22s, transform 0.18s, background 0.18s;
+}
+.glass:hover {
+  box-shadow: 0 8px 32px rgba(211,84,0,0.13);
+  background: rgba(255, 255, 255, 0.77);
+  transform: scale(1.03);
+}
+@media (max-width: 768px) {
+  .features {
+    padding: 2rem 0;
+  }
+  .grid {
+    gap: 1rem;
+  }
+}

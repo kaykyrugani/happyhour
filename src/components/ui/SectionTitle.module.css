@@ -1,0 +1,61 @@
+.sectionTitle {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2C3E50;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #D35400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background-color: #D35400;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Alinhamentos */
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left .underline,
+.right .underline {
+  margin: 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "category": "Esfirras",
+    "items": [
+      { "name": "Esfirra de carne", "price": "R$5,00", "image": "/assets/images/esfirra.jpg" },
+      { "name": "Esfirra de queijo", "price": "R$5,00", "image": "/assets/images/esfirra-queijo.jpg" }
+    ]
+  },
+  {
+    "category": "Parmegianas",
+    "items": [
+      { "name": "Parmegiana de frango", "price": "R$28,00", "image": "/assets/images/parmegiana-frango.jpg" },
+      { "name": "Parmegiana de carne", "price": "R$32,00", "image": "/assets/images/parmegiana-carne.jpg" }
+    ]
+  },
+  {
+    "category": "Bebidas",
+    "items": [
+      { "name": "Chopp artesanal", "price": "R$10,00", "image": "/assets/images/chopp.jpg" },
+      { "name": "Caipirinha", "price": "R$12,00", "image": "/assets/images/caipirinha.jpg" }
+    ]
+  }
+]
