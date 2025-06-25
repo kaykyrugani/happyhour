@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import SectionTitle from '../../components/ui/SectionTitle';
-import CardItem from '../../components/UI/CardItem';
+import CardItem from '../../components/ui/CardItem';
 import styles from './Gallery.module.css';
 
 const galleryData = [
